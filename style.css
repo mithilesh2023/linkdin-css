@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color:#f3f2ef;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns:50px 240px auto 300px 50px;
+    grid-template-rows:50px 130px 200px 100px 100px 100px 100px 15px;
+    gap: 25px;
+    width: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid{
+    background-color: #ffffff;
+    border: 1px solid  #d4d3ce;
+    border-radius: 10px;
+}
+#header{
+    grid-column: 1/6;
+   
+}
+
+#sidebar1{
+    grid-row:2/4 ;
+    grid-column: 2/3;
+}
+.sidebarimg{
+    width: 100%;
+    border-radius:5px 5px 0 0;
+    height: 70px;
+    background-image: url(images/Linkedin-Logo-PNG-Transparent-Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:inherit;
+}
+.sidebarimg img{
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 75px;
+    border: 2px solid white;
+}
+#right1{
+    grid-row:2/4 ;
+    grid-column: 4/5;
+}
+#sidebar2{
+    grid-column: 2/3;
+    grid-row: 4/9;
+}
+#right2{
+    grid-column: 4/5;
+    grid-row:4/6;
+}
+#center1{
+    grid-column: 3/4;
+    grid-row: 3/7;
+}
+#center2{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+#right3{
+    grid-column: 4/5;
+    grid-row: 6/9;
+}
+#header{
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.head1{
+    align-items: center;
+    width: auto;
+    
+   
+}
+.head1 img{
+    width:30px ;
+    padding: 7px;
+}
+input{
+    width: 300px;
+    padding: 10px;
+    margin-left: -38px;
+    border: none;
+    background-color: #eef3f8;
+}
+.head2{
+    border-right: 1px solid gray;
+    padding: 6px;
+    align-items: center;
+}
+.head2 li{
+    display: inline-block;
+    padding: 15px 20px;
+}
+.head2 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    font-size:13px;
+    
+}
+
+.fa{
+    color:rgb(88, 85, 85);
+    padding-left: 7px;
+    font-size:20px;
+}
+.fa:hover{
+    color: black;
+}
+#logo{
+    padding-left: 20px;
+}
+#svg{
+    margin-left: 20px;
+}
+.mercado-match{
+    margin-left: 20px;
+}
+#right1{
+    padding: 10px;
+}
+#right1 li {
+padding: 2px 4px;
+list-style: none;
+font-size: 15px;
+}
+#right1 span{
+    color: rgb(134, 123, 123);
+    font-size: 12px;
+    padding-left: 12px;
+}
+#dot{
+font-size: 22px;
+color: #5e5e5e;
+}
+ button{
+    font-size: 14px;
+    border: none;
+    color: rgb(149, 140, 140);
+    margin-left: 20px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius:5px;
+}
+
+ button:hover{
+    background-color:#ebebeb;
+}
+#center2{
+    padding: 10px;
+    
+}
+#center2 img{
+        width: 45px;
+
+        
+
+        border-radius: 50%;
+        float: left;
+}
+#center2 input{
+        width: 400px;
+        border: 1px solid rgb(185, 181, 181);
+        border-radius:30px;
+        padding: 13px;
+        /* border-radius: 50%; */
+        margin-left: 10px;
+}
+
+#center2 ul li{
+    display: inline-block;
+    
+}
+#sidebar2 p{
+        font-size: 13px;
+        color: gray;
+   padding: 5px;
+}
+#sidebar2 p:hover{
+    background-color: rgb(227, 224, 224);
+    color: black;
+}
+#sidebar2 i{
+    font-size: 13px;
+}
