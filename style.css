@@ -11,7 +11,7 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns:20px 210px auto 200px 20px;
-    grid-template-rows:50px 130px 200px 100px 150px 100px 100px 15px;
+    grid-template-rows:50px 130px 200px 100px 150px 130px 100px 15px;
     gap: 20px;
     width: 100%;
     margin: auto;
@@ -24,30 +24,8 @@ body{
 }
 #header{
     grid-column: 1/6;
-   
 }
 
-#sidebar1{
-    grid-row:2/4 ;
-    grid-column: 2/3;
-}
-.sidebarimg{
-    width: 100%;
-    border-radius:5px 5px 0 0;
-    height: 70px;
-    background-image: url(images/Linkedin-Logo-PNG-Transparent-Image.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:inherit;
-}
-.sidebarimg img{
-    width: 80px;
-    border-radius: 50%;
-    position: relative;
-    top: 30px;
-    left: 75px;
-    border: 2px solid white;
-}
 #right1{
     grid-column: 4/5;
     grid-row:2/4 ;
@@ -56,6 +34,7 @@ body{
     grid-column: 2/3;
     grid-row: 4/9;
 }
+
 #right2{
     grid-column: 4/5;
     grid-row:4/6;
@@ -72,6 +51,8 @@ body{
     grid-column: 4/5;
     grid-row: 6/9;
 }
+
+/* header start */
 #header{
     align-items: center;
     display: flex;
@@ -91,52 +72,72 @@ body{
     width:35px ;
     padding:10px 0px 8px 70px;
 }
-.searchs{
-display: inline-block;
-background-color: #eef3f8;
-align-items: center;
-}
-input{
-    /* width: 200px; */
-    /* display: inline-block; */
-    padding: 10px;
-    /* margin-left: -38px; */
-    border: none;
-    background-color: #eef3f8;
-}
-.head2{
-    border-right: 1px solid gray;
-    /* padding: 6px; */
-    align-items: center;
-}
-.head2 li{
-    display: inline-block;
-    padding:2px 8px;
-}
-.head2 a{
-    text-decoration: none;
-    text-transform: capitalize;
-    text-align: center;
-    font-size:13px;
-}
 
-.fa{
-    color:rgb(88, 85, 85);
-    padding-left: 7px;
-    font-size:20px;
+.searchs{
+    display: inline-block;
+    background-color: #eef3f8;
+    align-items: center;
+    }
+    input{
+        padding: 10px;
+        border: none;
+        background-color: #eef3f8;
+    }
+    .head2{
+        border-right: 1px solid gray;
+        align-items: center;
+    }
+    .head2 li{
+        display: inline-block;
+        padding:2px 8px;
+    }
+    .head2 a{
+        text-decoration: none;
+        text-transform: capitalize;
+        text-align: center;
+        font-size:13px;
+    }
+    
+    .fa{
+        color:rgb(88, 85, 85);
+        padding-left: 7px;
+        font-size:20px;
+    }
+    .fa:hover{
+        color: black;
+    }
+    #logo{
+        padding-left: 20px;
+    }
+    
+    .mercado-match{
+        margin-left: 20px;
+    }
+/* header end */
+/* sidebar1 start */
+#sidebar1{
+    grid-row:2/4 ;
+    grid-column: 2/3;
 }
-.fa:hover{
-    color: black;
+.sidebarimg{
+    width: 100%;
+    border-radius:5px 5px 0 0;
+    height: 70px;
+    background-image: url(images/coding-image_orig.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:inherit;
 }
-#logo{
-    padding-left: 20px;
+.sidebarimg img{
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 60px;
+    border: 2px solid white;
 }
-#svg{
-    margin-left: 20px;
-}
-.mercado-match{
-    margin-left: 20px;
-}
+/* sidebar1 end */
+/* right1 start */
 #right1{
     padding: 10px;
 }
@@ -168,6 +169,8 @@ color: #5e5e5e;
  button:hover{
     background-color:#ebebeb;
 }
+/* right1 end */
+/* center2 start*/
 #center2{
     padding: 10px;
 }
@@ -190,6 +193,8 @@ color: #5e5e5e;
     display: inline-block;
     padding: 20px;
 }
+/* center2 end */
+/* sidebar2 start */
 #sidebar2 p{
         font-size: 13px;
         color: gray;
@@ -202,6 +207,8 @@ color: #5e5e5e;
 #sidebar2 i{
     font-size: 13px;
 }
+/* sidebar2 end */
+/* right2 start */
 #right2 a{
     justify-content: center;
     margin-left: 50px;
@@ -221,6 +228,7 @@ color: #5e5e5e;
     font-weight: 600;
     margin-left: 30%;
 }
+/* right2 end */
 #rig-img {
     width: 70px;
     border-radius: 50%;
@@ -228,6 +236,8 @@ color: #5e5e5e;
 #rig-img2{
     width: 70px;
 }
+
+/*  right3 start*/
 #right3 li{
     list-style: none;
     display: inline-block;
@@ -248,6 +258,7 @@ color: #5e5e5e;
     padding:0 2px 0 8px;
 
 }
+/* right3 end */
 #top{
     display: flex;
     justify-content: space-between;
